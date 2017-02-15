@@ -1,0 +1,21 @@
+# Site settings
+title: jorwebdevelopment.com
+header-img: img/home-bg.png
+email: ti1795sv@gmail.com
+copyright_name: whammyjimjammy
+description: > # this means to ignore newlines until "baseurl:"
+  learning to code
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  whammyjimjammy
+learn_profile: whammyjimjammy
+email_username: ti1795sv@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
